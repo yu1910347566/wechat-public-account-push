@@ -79,6 +79,7 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "宝宝", "year": "2004", "date": "06-29"},
+        {"type": "生日", "name": "涛涛", "year": "2000", "date": "08-22"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -176,8 +177,9 @@ export const USER_CONFIG = {
    * --- 是否展示周岁信息结束 ---
    */
   FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "宝宝", "year": "2004", "date": "05-12", isShowAge: true},
+    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前有 * 符号
+    {"type": "生日", "name": "宝宝", "year": "2004", "date": "06-29", isShowAge: true},
+    {"type": "生日", "name": "涛涛", "year": "2000", "date": "08-22", isShowAge: true},
     // 你可以不断按格式往下增加
     // ...
   ],
