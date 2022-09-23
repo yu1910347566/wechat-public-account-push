@@ -101,7 +101,7 @@ export const USER_CONFIG = {
       customizedDateList: [{"keyword": "love_day", date: "2022-09-05"},]
     },
     {
-      name: "老婆2",
+      name: "2",
       id: "",
       useTemplateId: "",
       province: "",
